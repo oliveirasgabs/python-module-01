@@ -3,7 +3,7 @@ class Plant:
         self.name = name
         self.height = height
         self.days_age = days_age
-        print(f"Created: ", end="")
+        print("Created: ", end="")
         self.show()
 
     def show(self) -> None:
@@ -26,6 +26,9 @@ def main() -> None:
         Plant("Sunflower", 80.0, 45),
         Plant("Fern", 5.0, 120)
     ]
+    print("")
+    for plant in garden:
+        plant.show()
 
 
 if __name__ == "__main__":

@@ -9,9 +9,9 @@ class Plant:
 
 
 def main() -> None:
-    rose = Plant("Rose", 25, 30)
-    sunflower = Plant("Sunflower", 80, 45)
-    cactus = Plant("Cactus", 15, 120)
+    rose: Plant = Plant("Rose", 25, 30)
+    sunflower: Plant = Plant("Sunflower", 80, 45)
+    cactus: Plant = Plant("Cactus", 15, 120)
     rose.show()
     sunflower.show()
     cactus.show()

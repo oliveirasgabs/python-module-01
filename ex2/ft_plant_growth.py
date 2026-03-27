@@ -18,7 +18,7 @@ class Plant:
 
 
 def main() -> None:
-    rose = Plant("Rose", 25.0, 30, 0.8)
+    rose: Plant = Plant("Rose", 25.0, 30, 0.8)
     initial_height = rose.height
     print("=== Garden Plant Growth ===")
     for day in range(1, 8):
